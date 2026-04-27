@@ -215,30 +215,37 @@ input[type="radio"] {
   background: #cdb8ff;
   transform: scale(1.05);
   box-shadow: 0 8px 18px rgba(0, 0, 0, .12);
+.menu-box{
+max-width:900px;
+margin:30px auto;
+padding:20px;
 }
+
 .menu-semanal{
 width:100%;
+max-width:800px;
+margin:20px auto;
 border-collapse:collapse;
-margin-top:20px;
 background:white;
 border-radius:15px;
 overflow:hidden;
+box-shadow:0 4px 12px rgba(0,0,0,.08);
 }
 
 .menu-semanal th{
 background:#ffdca8;
-color:#444;
-padding:15px;
+padding:14px;
 }
 
 .menu-semanal td{
-padding:18px;
+padding:16px;
 border:1px solid #eee;
+text-align:center;
 }
 
 .menu-semanal td:first-child{
-background:#fff6e9;
 font-weight:bold;
+background:#fff6e9;
 }
 /* Hace que nada se rompa en pantallas pequeñas */
 *{
