@@ -216,3 +216,27 @@ input[type="radio"] {
   transform: scale(1.05);
   box-shadow: 0 8px 18px rgba(0, 0, 0, .12);
 }
+.menu-semanal{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+background:white;
+border-radius:15px;
+overflow:hidden;
+}
+
+.menu-semanal th{
+background:#ffdca8;
+color:#444;
+padding:15px;
+}
+
+.menu-semanal td{
+padding:18px;
+border:1px solid #eee;
+}
+
+.menu-semanal td:first-child{
+background:#fff6e9;
+font-weight:bold;
+}
