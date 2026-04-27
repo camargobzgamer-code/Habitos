@@ -259,6 +259,25 @@ height:auto;
 
 /* Móvil y tablets */
 @media (max-width:768px){
+.menu-box{
+width:95%;
+padding:12px;
+margin:auto;
+}
+
+.menu-semanal{
+width:100%;
+display:block;
+overflow-x:auto;
+margin:auto;
+font-size:14px;
+}
+
+.menu-semanal th,
+.menu-semanal td{
+padding:10px;
+white-space:nowrap;
+}
 
 .titulo{
 font-size:32px;
