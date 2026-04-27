@@ -240,3 +240,72 @@ border:1px solid #eee;
 background:#fff6e9;
 font-weight:bold;
 }
+/* Hace que nada se rompa en pantallas pequeñas */
+*{
+box-sizing:border-box;
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+/* Móvil y tablets */
+@media (max-width:768px){
+
+.titulo{
+font-size:32px;
+padding:10px;
+}
+
+.subtitulo{
+font-size:16px;
+padding:0 15px;
+}
+
+.app{
+padding:20px;
+}
+
+.grid{
+grid-template-columns:1fr;
+}
+
+.card{
+padding:22px;
+}
+
+table{
+display:block;
+overflow-x:auto;
+width:100%;
+font-size:14px;
+}
+
+th,td{
+padding:10px;
+}
+
+input, textarea{
+width:100%;
+}
+
+.tarjeta-opcion span{
+width:100%;
+max-width:320px;
+font-size:20px;
+}
+
+/* botones */
+.volver,
+.btn-secundario{
+width:90%;
+max-width:300px;
+text-align:center;
+}
+
+/* menú alimentación */
+.menu-box{
+padding:18px;
+}
+}
